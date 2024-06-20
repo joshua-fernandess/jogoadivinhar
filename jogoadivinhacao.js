@@ -9,7 +9,7 @@ console.log("Bem vindo(a) ao jogo de adivinhação")
 
 let rodadas = 0
 let maxRodadas = 10
-const numero = Math.floor(Math.random() * 100) + 1
+const numero = Math.floor(Math.random() * 100) + 101
 
 function palpite(){
     rodadas++
